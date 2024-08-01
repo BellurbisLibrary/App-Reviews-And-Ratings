@@ -43,6 +43,6 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
-    implementation(libs.review)
-    implementation(libs.app.update)
+    implementation ("com.google.android.play:review:2.0.1")
+    implementation ("com.google.android.play:review-ktx:2.0.1")
 }
